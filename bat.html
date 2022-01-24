@@ -1,0 +1,102 @@
+<h4>Реалізація проекту в середовищі Scratch 3</h4>
+<p>У проекті "Політ кажана" ми розробимо анімацію, в якій кажан рухається по екрану, слідуючи за вказівником миші. Кажан у польоті має махати крилами.<br></p>
+<p>Етапи виконання проекту<br></p>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London0')">1</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris0')">2</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo0')">3</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv0')">4</button>
+    <button class="tablinks" onclick="openCity(event, 'London1')">5</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris1')">6</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo1')">7</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv1')">8</button>
+    <button class="tablinks" onclick="openCity(event, 'London2')">9</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris2')">10</button>
+</div>
+
+<div id="London0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Створіть персонаж, додавши спрайт.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/B-8QdtgdjrmY2dMLunrVFLnMtWrZGvy9P9gvAcSlimHJDVugWwtIvtOf7ZJCv1-nl77bTH7m0ZuDF7QRK8yKA1p3zWhIzTP4mKgh00l5OxXYp2TBCI2NVjGzWEo_Y62Mhe5GJs6k" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Оберіть спрайт з кажаном &nbsp; <br>
+        <img src="https://lh5.googleusercontent.com/6S9IFVxshWwLUhagLO9ZIuP9Nz7w-APX98YufFCEocE4x5YH465aOtNJgARlOktMzfp4GP36WXWjidugX1njfi7amSoYI4mtCP2A9uZcazdNTXqDNRYY6mC7Jg53lFWSgO0kEkUN" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Видаліть спрайт Скретча.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/f6YMX2IVawzUq7a2npenx75oEoFDff6tyT7QrqQYxCPAEBh-xSzlKXxrFsOz2BYtvpWc_KD2gsggw2u9XDFzup4wsLnzZKaAcE1H24mYBSORhY2sU1la0UVXubpW2LvRskcZmZsA" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Видаліть зайві образи кажана.&nbsp; <br>
+        <img src="https://lh5.googleusercontent.com/lypL2awQSP_gT2W7NH25mbHToyxrCCE_yAIJnuthtrhJ5H1dMlPr07WK_z8K9-0zLLDQKM8kcA4pNkF0PQvB2dQBWZ-8XZ_xcPziGZeuutgweVtoo6TOpngtHL2BPVWo-J9kciGO" width="931" height="601">
+    </div>
+</div>
+
+<div id="London1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Коли клацнули прапорець, кажан має завжди рухатись за вказівником миші.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/ntxCiNl2UthMnyAd_Zsv17hOWEgYbdQYCGArF0bCTfcBIDQL5knVba_f3OVRGZCwYktUBqkK4qS8wN1XRUw9pCALYQps1x4L14Bg8zWMax4jSuB_Ezia-_qhqO3uex3Ng5NcYcWa" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Також кажан має змінювати образ.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/COU42V-OUpWIKPYjLqt959tnfDpumahVzhQwSz1Bbwz3EHQj5aCOfJgakqsQfWaWUtlk3ERh_P_E0kuR2xuPIDntUDzslStEynjEAQDy3z90TMUXRz-8PcfBG-FOYq5iIf-Jz1tT" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Оскільки рух відбувається надто швидко, додамо паузу з очікуванням. Поекспериментуйте зі значенням затримки.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/enWKxOGbhhbLJTKcET39918HLUh_EKcOO9n3g4Xjuq0uRF5eUo4f-6sBXYALJ5Suyzx_mQR8FASVLZ2i-vHBUKe7DUrlL-419T1ruzcCbwv--uOoDj4yNmOqzQEqvi30mpbUzrW-" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додайте команду, що визначає стиль обертання кажана, щоб він не перевертався догори ногами.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/tRoPc0J0n5BVvPZ4MEGrGdGVwt-oilcH9RARZYapf5oJ1PIFJ-8Wx0BKRNPZJ3qIuXOEqBJWIb67XuqQQMRfBHHQ-3evXqEfnFmK63pGgJjMBvtg4uZTNKrFMvpVpEAFNk-ygJ51" width="931" height="601">
+    </div>
+</div>
+
+<div id="London2" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додайте тло, що підходить за стилем.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/W1bQAQBIIkOh6d5cU9QNLEFG2vWYDfLXgXjWLsnEdYf5NfpEU622kB-nXSgmpo5eULSLCY27cQ8CUSEkvwQge8pooJiLKfBMzl6UtoR4uLHqJARVxihdD0vzJJHmY4tGQ4g-m-Mo" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris2" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Збережіть проект, вивантаживши його на свій комп'ютер.&nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/US7kuqYeAZAo_mQT0CAtBvVXDk-cX-geugh7mswCuRzs7GcwykW-nTuFaZhBWxvXRtUhjJMr7sjpFsZd8oaojyP_VWi0-RSiJRf7s41luzNGfX1NhYqoiPtJbXn2QkV380x7uaY-" width="931" height="601">
+    </div>
+</div>
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
