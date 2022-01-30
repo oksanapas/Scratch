@@ -1,0 +1,79 @@
+<html>
+    <head><title>Bat</title></head>
+    
+    <body>
+
+<h4>Реалізація проекту в середовищі Scratch 3</h4>
+<p>У проекті "Акваріум" ми розробимо анімацію, в якій мешканці акваріуму рухаються у воді. Доторкнувшись до межі екрану, вони розвертаються. Восьминіг має змінювати образи та колір, рибки розвертатись час від часу, крабик - бігати по дну справа наліво.<br></p>
+<p>Етапи виконання проекту<br></p>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London0')">1</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris0')">2</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo0')">3</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv0')">4</button>
+    <button class="tablinks" onclick="openCity(event, 'London1')">5</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris1')">6</button>
+
+</div>
+
+<div id="London0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Створіть персонаж, додавши спрайт восьминога.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/Iif5Cfg-MhhZlfGkNI20gcYS_8H71ImdGf2KloQmKnWpJXzOJpRsrgO6mz_-l4CCyvXKmft2tnXY_FovcbePY2RgtUAfJtJDR6HxSBWgQuWm0-mBFdE1oB6aoJ5b4ye1WKadhwv7" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Видаліть зайві образи &nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/LwU6PN1P1x2LYrHGNVgmjOV7zDsa-B8g5nreY1NqiccQe-y7Kh1S5gHajfCLujZF8AOyXPTL8DR6Eyp8_DCU_FDG8eBE40eMgP9I9Vzs31mwfKH84baIoIbzaDIEQMR73kMkAhDH" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Восьминіг має завжди рухатись, відбиваючись від меж. Врахуйте спосіб обертання &nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/vZkgjuFuBcl4q48lUceBO9QQcsRPbvwoEYKpFmFG3NwkhIGEF1C6kNWr_ADHUvp-diMYUjNXXAxRyh9h2Oh-_wvzNiGxOf30xcenKitvaYxcsoQxrs9o0qUaQoiKtuKujMVFESYX" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Періодично (щосекунди) восьминіг має змінювати колір та образ.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/Pq0bTdrjst2vRsc7L6s7C7lwTu0ugiESacXBm0lP4clTn9C7P3sV4hyEwpNUPu63un8u-tELtTAo6FYud_vlpqPLQfGvrFGTbdfLiaOSSCB2T8F9arSP3nBnw4xiKflNNw-Kurc4" width="931" height="601">
+    </div>
+</div>
+
+<div id="London1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додайте спрайт з рибкою. Рибка має завжди рухатись, відбиваючись від меж. Врахуйте спосіб обертання. Крім того, рибка кожні 2 секунди має змінювати напрям руху випадковим чином.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/aIGFmX2vfJzRakHXy1OHrTcQ2so-Lvoz14D4rQr5B4rl2U9_9naXz4fLRxzvrfwC55EMFWs0feYctBk3VYs7WBzkqUwuSFL9FAqGc8kInOF3BXL5krghnzSYIS9sAAorzDhnOOQc" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додайте кілька спрайтів з рибками, крабом, встановіть відповідне тло.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/IkQ61uy0DZAOm7AYHkJ_io70DZ6C_5r3vBX474gO5v8zVQxJ9JNv0TUmdizgvxWAqn0zMOoyX5PhL1sI7x7siLoono3lo9NH3XsD9sd7gm0pci-8u6Y4BlroMptraiaZ5dPmwCbU" width="931" height="601">
+    </div>
+</div>
+
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+    </body>
+</html>
