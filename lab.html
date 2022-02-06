@@ -1,0 +1,166 @@
+<html>
+    <head><title>Bat</title></head>
+    
+    <body>
+
+<h4>Реалізація проекту в середовищі Scratch 3</h4>
+<p>У проекті "Кіт у лабіринті" ми розробимо гру, в якій кіт рухається по екрану, гравець ним керує за допомогою стрілочок на клавіатурі. На екрані зображено лабіринт, якщо кіт до нього торкається, то повертається на початок рівня. Дійшовши до кута, кіт переходить на початок наступного рівня. У грі потрібно збирати цінні предмети, наприклад банани - за кожен банан отримуємо 1 бал.<br></p>
+<p>Етапи виконання проекту<br></p>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London0')">1</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris0')">2</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo0')">3</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv0')">4</button>
+    <button class="tablinks" onclick="openCity(event, 'London1')">5</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris1')">6</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo1')">7</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv1')">8</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv12')">9</button>
+    <button class="tablinks" onclick="openCity(event, 'London2')">10</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris2')">11</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo2')">12</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo21')">13</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv2')">14</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo3')">15</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv3')">16</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv4')">17</button>
+</div>
+
+<div id="London0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Створіть спрайт лабіринту, намалювавши його.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/mFYo7PpnQJafFpk2IPe5iwhfWk-MnHsGaVruKOMLTwnt47H93Ukpt5bjuxtmk1NNbL6Dorfz-w-aTxWSRh2tIra4TjyoDrPQj2nCSCtZwlDGjZll_Rkj7yzxhx3Y_RoOiWW9lJWZ" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Малюйте досить широкі лінії стін лабіринту &nbsp; <br>
+        <img src="https://lh5.googleusercontent.com/R87EGdiA4UOvdQWeuuLksYsrwAEAuLuJpV8nrEDFOoPrfjqvovRkZzAbO7u9bxTfikBbtJn4W8mO-n1INdt8SlCvM356BgMEVWRKlSlug23sYh2XA99R0NbR-Yg03K_vMt37WNrL" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Задайте стиль обертання для Скретча &nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/0_9TQFXN7Z2vufkJbX65H4G3OPXzuTTv4YXmxe6ZbinYyyaLyEXIfcGkuHSqtKOlpl7d6eUH1RUNFbfUhJtvck3zaRDd434c3a27X6Vq8zp-1MkQTwFqGXjJb1YDGYHZWFxqtK2q" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Скретчем керуватимуть за допомогою стрілок клавіатури: якщо стрілку вгору натиснено, Скретч має повернути вгору та пройти кілька кроків .&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/Lppy9xMjsSqjC8d-CcZUfR2doUDd3Glh6NzajdzZUBYhIVh64dpRgFjvFXvoVL2uD-1rgVszwZ0yzo2oKwsN3cUApdB2n-efOth3N9Jjhs2wltGb4aFBGgDAt24o6wBmcLfF1173" width="931" height="601">
+    </div>
+</div>
+
+<div id="London1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Коли натиснено клавішу стрілка вниз, Скретч має повернути вниз і пройти кілька кроків.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/Wr-Cl5UnMJIgBxFqgocvUyMBg5lGqP9UiWld2GQbwuPvfSd9iOrSQxD4mHLkbIuEaSlH0BnZOpOXNzMC6z_fphDEPxXV57jBeS2VfAJglBvuG2A3yhrlfy3_FFM73t2hama-IlGq" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Аналогічні команди створимо і для решти стрілок.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/jw3OP9q6i_CbGBdHV5ch4hxL8saoYSq8EaEkVEexdQMFrNqEJ6eZRVu9tMEo3AoKDm15lb35olc6dZUAhc2Neyl9Dd87j-Q3SI62QJgTPb9ZYw3j0D6z4OAj_DKmk8XzK8lZ2lrH" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Коли Скретч торкається чорного кольору (яким намальовано лабіринт), він має перейти на початок рівня, тобто в координати -180 -130.&nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/qCig5Oc9Lc1QVuaxUf4yUlvUO8M4VRoUGfiukEOfqle1fCFC7TOpfA9Tm8EXE1K8b_8i1GhLLNqgkgJ79jTfjz2fKqvRC1N-iyY_3ZGkSOq3y71SVJwpHKAlh6wbj4OsBOKlxYiY" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додамо спрайт ключа, який позначає кінець рівня.&nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/mZeHwRnMmIgNAP1ng4-T7PH3tj_Tem1iTcehGn4bYCUEjkjiTStRNKwnhOY8-z4RRD_59TJe2pkwDhtb3hAykZrOSQ6Fv10pPqt13MThqMOLxB1jgPCq4XdaxIKF5flnsL0K1TVL" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv12" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Коли Скретч дійде до цього спрайту і торкнеться його, він має сповістити всіх про те, що він дійшов до кінця рівня.&nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/44wI7te1kgw1CcSt2n407yMSFv34fBj2H6K4G9Bod39NEZUxzlUeHZiCSQiO0T01P2Em41lDRCa_iG5ONtM3Wi7kgJeqauiL4s1Oj_CIshX0whYtwgODuL-GrnSH7WeZDgeKBRpt" width="931" height="601">
+    </div>
+</div>
+
+<div id="London2" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Можна надрукувати будь-яке повідомлення, наприклад "Я дійшов до кінця рівня!".&nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/TeGa8HR9frN3oLrKuV-TnSn6LJtcXQkJavCkZX6TSb_Dfu0Vh-RqqviMGe3FnvPIGEy3uAjtH_JDkkFYgplnYIyGVra6VQCnGLQmrlLxa8UhuTDKn3Wm34LVr51zqk21Z8UcIMH6" width="931" height="601">
+    </div>
+</div>
+
+<div id="Paris2" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Коли Скретч отримує це повідомлення, він має переміститись на початок наступного рівня, тобто в координати -180 -130 .&nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/snHYJEm8_XxXdL15IfeSXx8UZUrhrFeuw24-VXVkIzSm-zSHraMWg--kjyPUPfWTba814qye_hABi3anGUc60hZoHfVmWI9je90acCRaYyzcUJeRV1OWDVuufIR8Qk9oCCKi1_mU" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo2" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Щоб було цікавіше, створимо банани, які потрібно збирати: коли до банану торкається Скретч, то банан потрібно сховати.
+        &nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/vQOQbZIhx2R-JG_hWVOAflO-0NbGqh_CXPqVKgXAJVq7P6_uCZoyBlF0F2aSjqWAdUVFozI_reu1bBfre6y5fFFQ6igrJ-s2fYEuGHeUvmWFTrDYacPoVkCHp_W8FkgwQgaAGSni" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo21" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        За зібрані банани можна отримувати бали. Створимо змінну, яка відповідатиме за кількість зібраних бананів. Назвемо змінну "банани"
+        &nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/Qjs0aDxZiHj0oGMqj4hHWkeOeg7200oQX-OAivrSXp7LkqpxS6-CKvWkraObfV5U-5qVc7Dy8xJfleAfzcOZEwVnM4Ps53NjRWGGyJmgsQxKa9OguvVu_PX3O12OtZ48REEYtE6f" width="931" height="601">
+        <img src="https://lh5.googleusercontent.com/c5gBHgFlCTIM5eixEONDTjUan8cWvB53ZZPr1gu_bjKeeX0owbcGs1ruT9yRfw0gxsoeVfV8qWm53gE6ZXPTN7VmHo_x97ZvSDtT1yC94Yq0_Sz8DrV11YmJ5GLtP6SKqnKcskZu" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv2" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додамо команди збільшення кількості балів, коли Скретч торкається до банану.<br>
+        <img src="https://lh4.googleusercontent.com/_SewtbyjU7CFl9Lhkpi_U-KSouuAIaRxG-jo9XiV9q5hHhq8ceP47NAG4VK7i83AHyWEy3zf3GqYHojeSulXlJUGeTGpNuIGNR85VTRgiCH3Tkx9uaikZWo91GZwEvEoHBtS6-m3" width="931" height="601">
+    </div>
+</div>
+
+<div id="Tokyo3" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Створіть кілька різних образів для лабіринту &nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/J-TX02uYrIJuhtxPuItwq4FE-NOvgdnjNFolPOqx3xL2lxUEeBt-JZ5c_Ca7_jaipfx1-A0_5_pvBeyXVDi2EOAynnQCYqLrLeVnI-3RnPQLL0yLv3XnoC1FEcT6u3fqQSyMVkUk" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv3" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додайте кілька різних образів тла<br>
+        <img src="https://lh3.googleusercontent.com/z9pHOEzkvD8OpHuy0Zc1SI3AiE1LrbPlCUjshGeLgKl2YiKyHrETHoyRj2s1X2v5hpbhsnw4LKcvHrHqsrkD0e2svC6ufgb7HclpYRBWeH4dlWfVo9rWkbEG-gAZ50J0e2ORG_SE" width="931" height="601">
+    </div>
+</div>
+
+<div id="Lviv4" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        При переході до наступного рівня має змінюватись образ лабиринту та образ тла<br>
+        <img src="https://lh5.googleusercontent.com/CYEq3jDZNpyDXJIs2cNgn2IXTIhpFFCfN25hxac47OzkRg0PJ0RPtfCUHjE71motBwsf-TMWEr37CFepEEl6C_YkySa_CvAGyiW5JgShcu1fgWsawcowiRiDwd3G1kqAQNG7sz_N" width="931" height="601">
+    </div>
+</div>
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+    </body>
+</html>
