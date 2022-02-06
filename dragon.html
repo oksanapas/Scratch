@@ -1,0 +1,99 @@
+<html>
+    <head><title>Dragon</title></head>
+    
+    <body>
+
+<h4>Реалізація проекту в середовищі Scratch 3</h4>
+<p>У проекті "Чарівник і дракон" ми розробимо гру, в якій дракон літає по ігровому полю, а чарівник намагається в нього влучити блискавкою, що вилітає з його чарівної палички.<br></p>
+<p>Етапи виконання проекту<br></p>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London0')">1</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris0')">2</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo0')">3</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv0')">4</button>
+    <button class="tablinks" onclick="openCity(event, 'London1')">5</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris1')">6</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo1')">7</button>
+    <button class="tablinks" onclick="openCity(event, 'Lviv1')">8</button>
+</div>
+
+
+<div id="London0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Додайте до проекту 3 спрайти: чарівника, дракона та блискавку &nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/TQPYI4MyUuTWimG0vhRd8GBBH07OQ-E-mjIuMSMRPkt-dchSaoaa_HQgzkhscoTGXMzCmxir7wMsSdJOcCf4X94hilnCG9S-9ofyNsPdUwJ5_ZHCbTGEGN_wNOYJ2r_qauqHtl2M" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="Paris0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px;">
+        Для обертання дракона використайте кнопку Flip horizontal або Право-ліво &nbsp; <br>
+        <img src="https://lh4.googleusercontent.com/s8xMH2K1a5vYVzUxuLjhVhPpguoaw9roCmc928z9LYa0sMS08kGVm9snN5X_mHjCv6KyNgv3UvtmSasJbX4B_4OjsBusD4-0WuKmKMv8Lg0PHazxJEmPpfQIhZU4AR7uDXPWEKlC" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="Tokyo0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Для обертання блискавки: виділіть її (наприклад клавішами Ctrl+A) і скористайтесь стрілкою повороту &nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/G6Mx3ah6I7q0kYY6imFEc9JWqL7OicInNAfIowBPrKWejfg7aBU8M_Lax990vTI7DbTe4XPY_QIsWVUlPMNnLjvNKqBZyFuRqW9PucXkj8Y2vlsey-aa3MaciHatZCTv9c4etk-1" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="Lviv0" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Програмуємо дракона: вимикаємо його обертання, і нехай він постійно рухається вгору-вниз &nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/BpgQ10QKe5aaH7xsUHp3dFka8PT6fvMbE9Q3Fdh6z9UgwT2PA96vzzGoKC88q-CWK9keV_P32a2ESG55CPdySkHATh6QxbGAbO-tUWtPrSkF-nSuEAx8cH6UAzdY_RD98thaJV6d" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="London1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Програмуємо чарівника: блокуємо обертання, і забезпечуємо рух за стрілками вгору та вниз &nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/3EwfLUBLf3mfcW78U1n0Kli74zGNplRrUMuPoL64Pyga8GzPyr7qV1RcZlelj17MwWdCz7lXwOOzuwM1YFHISyUoTHDP-7OyYYZ2Si0El-vaf9c238y88mIpnt7e5UttYxVlGr0_" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="Paris1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Програмуємо блискавку. На початку гри її треба сховати. Після натиснення клавіші пробіл, її потрібно перемістити в те місце, де перебуває чарівник, показати і забезпечити рух в напрямку до дракона &nbsp; <br>
+        <img src="https://lh3.googleusercontent.com/40h5l0LdnZqQV2AUp032Wb8O2QHhOH2XYslUs566pzX0rlS0NPZJGBhnWIFtGTUGMkCwGXfoEeH3Ip-q6V9v2OjEceEcGcUEqE40zfOp24WhsYM_M-VwPZUrNh3Fd_k_Tlw_zRGD" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="Tokyo1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Додаємо команди для дракона: якщо він торкнеться блискавки, то гру завершено &nbsp; <br>
+        <img src="https://lh6.googleusercontent.com/_ImBkQa-kqaxK_9ViGDCyt7x82xOo28zVpHNORaIvb8svtqXro2VnyiCnr3XYjZ946q-Y3amFDOxo9gp6PmOYMeON0eKmKFCWkkZfl24-Hj2OTm3rdi8K65uwAf345YGgbNEY9KQ" width="931" height="601">
+    </div>
+</div>
+
+
+<div id="Lviv1" class="tabcontent" style="display: none;    padding: 6px 12px;    border: 1px solid #ccc;    border-top: none;">
+    <div style="border: 1px solid lightgrey;    border-radius: 5px; padding: 10px 10px 10px 10px; ">
+        Подумайте, як можна вдосконалити гру: додати зміну образів, збирати очки, змінювати швидкість тощо &nbsp; <br>
+
+    </div>
+</div>
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+    </body>
+</html>
